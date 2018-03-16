@@ -11,4 +11,8 @@ public class CalculatorMain {
 	public int sub(int a, int b){
 		return a-b;
 	}
+        //function for multiplication
+       public int mul(int a, int b){
+		return a*b;
+	}
 }
