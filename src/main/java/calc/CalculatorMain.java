@@ -15,4 +15,9 @@ public class CalculatorMain {
        public int mul(int a, int b){
 		return a*b;
 	}
+
+        //function for div test
+       public int div(int a, int b){
+		return a/b;
+	}
 }
