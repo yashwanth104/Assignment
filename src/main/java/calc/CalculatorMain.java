@@ -13,11 +13,19 @@ public class CalculatorMain {
 	}
         //function for multiplication
        public int mul(int a, int b){
-		return a*b;
+    	return a*b; 
 	}
 
-        //function for div test
+        //function for div test and division exception for zero
        public int div(int a, int b){
-		return a/b;
+    	   if(b!=0)
+    			return a/b;
+    	   else
+    		   return 0;
 	}
+      //function for exponent
+       public int pwr(int a, int b){
+   		return (int)Math.pow(a,b);
+   	}
+      
 }
